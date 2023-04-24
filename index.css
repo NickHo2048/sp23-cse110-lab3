@@ -1,1 +1,6 @@
-/* */
+/* create a random object called body */
+body {
+    color: #fff;
+    background: linear-gradient(45deg, red, blue, green);
+    background-size: 750% 500%;
+}
