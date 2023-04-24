@@ -100,5 +100,14 @@ body {
 
   @font-face {
     font-family: "bruno";
-    src: url("Bruno_Ace_SC/BrunoAceSC-Regular.ttf");
+    src: url("BrunoAceSC-Regular.ttf");
+  }
+
+  /* Extra */
+  .highlight {
+    background-color: blue;
+  }
+
+  h2#heading {
+    color: green;
   }
