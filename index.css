@@ -4,3 +4,30 @@ body {
     background: linear-gradient(45deg, red, blue, green);
     background-size: 750% 500%;
 }
+
+/* relative unit objects */
+.object {
+    font-size: 1em;
+}
+
+.vw {
+    width: 10vw;
+}
+
+.hw {
+    height: 10vh;
+}
+
+/*absolute unit objects */
+
+.px{
+    width: 200px;
+}
+  
+.cm {
+    width: 1cm;
+}
+
+.mm {
+    width: 10mm;
+}
