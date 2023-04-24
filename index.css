@@ -1,6 +1,8 @@
-/* create a random object called body */
+/* create a random object called body with text properties in it */
 body {
     color: #fff;
+    font-family: Arial;
+    text-decoration: underline;
     background: linear-gradient(45deg, red, blue, green);
     background-size: 750% 500%;
 }
