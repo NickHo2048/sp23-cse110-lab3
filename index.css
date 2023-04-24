@@ -66,6 +66,10 @@ body {
     border: 5px solid black;
     border-radius: 5px;
     position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    grid-column-start: col-start 2;
   }
 
   /*sizing*/
@@ -75,13 +79,18 @@ body {
     max-width: 150px;
     min-width: 50px;
     position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
   }
 
   /*pseudo-class*/
-  :fullscreen {
+  :active {
     background-color: rgb(255, 0, 0);
   }
 
   button:hover {
     color: rgb(0, 0, 255);
   }
+
