@@ -1,0 +1,104 @@
+/* create a random object called body with text properties in it */
+body {
+    color: #fff;
+    font-family: Arial;
+    text-decoration: underline;
+    background: linear-gradient(45deg, red, blue, green);
+    background-size: 750% 500%;
+    display: block;
+    display: inline;
+    display: inline-block;
+    display: grid;
+}
+
+/* relative unit objects */
+.object {
+    font-size: 1em;
+}
+
+.vw {
+    width: 10vw;
+}
+
+.hw {
+    height: 10vh;
+}
+
+/*absolute unit objects */
+
+.px{
+    width: 200px;
+}
+  
+.cm {
+    width: 1cm;
+}
+
+.mm {
+    width: 10mm;
+}
+
+/*long hand*/
+.box1 {
+    width: 350px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+
+/*short hand*/
+.box2 {
+    width: 350px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    padding: 25px 25px 25px 25px; 
+    border: 5px solid black;
+    border-radius: 5px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    grid-column-start: col-start 2;
+  }
+
+  /*sizing*/
+  .window {
+    width: 100px;
+    height: 100px;
+    max-width: 150px;
+    min-width: 50px;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+  }
+
+  /*pseudo-class*/
+  :active {
+    background-color: rgb(255, 0, 0);
+  }
+
+  button:hover {
+    color: rgb(0, 0, 255);
+  }
+
+  @media (max-width: 1250px){
+
+  }
+
+  @font-face {
+    font-family: "bruno";
+    src: url("Bruno_Ace_SC/BrunoAceSC-Regular.ttf");
+  }
