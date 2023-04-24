@@ -95,5 +95,10 @@ body {
   }
 
   @media (max-width: 1250px){
-    
+
+  }
+
+  @font-face {
+    font-family: "bruno";
+    src: url("Bruno_Ace_SC/BrunoAceSC-Regular.ttf");
   }
