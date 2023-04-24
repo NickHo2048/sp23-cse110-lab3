@@ -5,6 +5,10 @@ body {
     text-decoration: underline;
     background: linear-gradient(45deg, red, blue, green);
     background-size: 750% 500%;
+    display: block;
+    display: inline;
+    display: inline-block;
+    display: grid;
 }
 
 /* relative unit objects */
@@ -61,4 +65,12 @@ body {
     padding: 25px 25px 25px 25px; 
     border: 5px solid black;
     border-radius: 5px;
+  }
+
+  /*sizing*/
+  .window {
+    width: 100px;
+    height: 100px;
+    max-width: 150px;
+    min-width: 50px;
   }
