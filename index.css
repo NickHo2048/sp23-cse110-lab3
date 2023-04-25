@@ -143,3 +143,41 @@ article p:last-child {
   font-size: 120%;
   font-weight: bold;;
 }
+
+/*selector list*/
+h1, h2, h3 {
+  font-family: Arial;
+}
+
+/*adjacent combinator*/
+li:first-of-type + li {
+  color: red;
+}
+
+/*descendant*/
+li {
+  list-style-type: circle;
+}
+
+li li{
+  list-style-type: disk;
+}
+
+/* child */
+body {
+  border-color: beige;
+}
+
+body > span {
+  background-color:rgb(0, 233, 249);
+}
+
+/* general sibling */
+p ~ span {
+  color:red;
+}
+
+/*combining two selectors */
+body.mode-red {
+  background-color:aqua;
+}
